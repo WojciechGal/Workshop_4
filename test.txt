@@ -1,0 +1,2 @@
+curl -X POST -i -H "Content-Type: application/json" -d '{"isbn":"34321","title":"Thinking in Java", "publisher":"Helion","type":"programming", "author":"Bruce Eckel"}' http://localhost:8282/books
+curl -X PUT -i -H "Content-Type: application/json" -d '{"id":4,"isbn":"2736492","title":"Lord of The Rings", "publisher":"Elsevier","type":"fantasy", "author":"JRR Tolkien"}' http://localhost:8282/books/4
