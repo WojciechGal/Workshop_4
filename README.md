@@ -1,2 +1,2 @@
-# Warsztat_4
-Połączenie REST API z wyświetlaniem danych za pomocą JSON-a/AJAX-a.
+# Workshop_4
+Combination of REST API with visualizing data by JSON/AJAX.
