@@ -11,8 +11,11 @@ function downloadBooks(table) {
 
     $.ajax(
         {
-            url: "http://localhost:8282/books",
+            //to jest do serwera z warsztatu 4 z forka - rest_api -> url: "http://localhost:8282/books",
+            url: "http://localhost:8080/books",
             method: "GET",
+            // jsonpCallback: 'jsonCallback',
+            // contentType: "application/json",
             dataType: "json"
         }
     ).done(function (response) {
@@ -51,7 +54,8 @@ function downloadDetailsAndSlide(id, div) {
 
     $.ajax(
         {
-            url: `http://localhost:8282/books/${id}`,
+            //url zmieniony
+            url: `http://localhost:8080/books/${id}`,
             method: "GET",
             dataType: "json"
         }
